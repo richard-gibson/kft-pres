@@ -8,15 +8,19 @@ Note: 1. Introduce Hexlabs
 4. Agenda
 
 ---
-## Cloudformation
+## CloudFormation
 - Templating system to deploy AWS resources
 - Infrastructure as Code (Config)
 - Automation and Repeatability
 Note: 1. Infra in version control
-
+2. CloudFormation simplifies provisioning and managing resources. We just create templates for the services and applications we want to build. CloudFormation uses those templates to provision the services and applications, called stacks. We can easily update and replicate the stacks as needed. We can combine and connect different types of resources to create a stack.
+3. Infrastructure-as-Code
+A template can be used repeatedly to create identical copies of the same stack (or to use as a foundation to start a new stack). Templates are simple YAML- or JSON-formatted text files that can be placed under our normal source control mechanisms, stored in private or public locations such as Amazon S3, and exchanged via email. With CloudFormation, we can see exactly which AWS resources make up a stack. we retain full control and have the ability to modify any of the AWS resources created as part of a stack.
+4. Intelligent updating & rollback
+CloudFormation not only handles the initial deployment of our infrastructure and environments, but it can also manage the whole lifecycle, including future updates. During updates, we have fine-grained control and visibility over how changes are applied, using functionality such as change sets, rolling update policies and stack policies.
 ---
-## Quiz 
-#### Resource 1
+##  CloudFormation Quiz 
+Resource 1
 ```yaml
 AWSTemplateFormatVersion: "2010-09-09"
 Resources:
@@ -35,7 +39,7 @@ Resources:
 Note: 1. EC2 instance created
 
 ----
-## Quiz 
+## CloudFormation Quiz 
 #### Resource 2
 ```yaml
 AWSTemplateFormatVersion: "2010-09-09"
@@ -53,7 +57,7 @@ Resources:
 ```
 Note: 1. Failed: Type should be indented further
 ----
-## Quiz 
+## CloudFormation Quiz 
 #### Resource 3
 ```yaml
 AWSTemplateFormatVersion: "2010-09-09"
@@ -75,18 +79,18 @@ Resources:
 ```
 Note: 1. Failed: Attribute name case sensitive "SqsLogicalQueueName" != "sqsLogicalQueueName"
 ----
-## Quiz 
+## CloudFormation Quiz 
 #### Resource 4
 ![large-yml](./lambda-yml.png)
 ---
 
 ![KloudFormation](kloud-formation-logo-color.png)
 - Coverage of over 400 AWS resouces
-- DSL for building Cloudformation templates
+- DSL for building CloudFormation templates
 - Modules to compose common resources
 - <a href="https://kloudformation.hexlabs.io" target="_blank">https://kloudformation.hexlabs.io</a>
 
-Note: 1. Cloudformation with a 'K'
+Note: 1. CloudFormation with a 'K'
 2. Talk about how this number of resources where obtained
 3. Really this is Chris Barbours baby but he was off having another one.
 4. Great for Name text, not great for talking about, 
@@ -175,9 +179,43 @@ val root = Path("")
 root / "usr" / "local" / "bin"
 //Path(pathValue=/usr/local/bin)
 ```
-Note: 1. Extension functions easily created
+Note: 1. Kotlin allows us to change the functionality of some operators
 2. infix keyword, this is why be parenthesis on be
+----
+## Kotlin DSL Examples
+DSLMarkers
+```kotlin
+@DslMarker
+annotation class KloudFormationDsl
+class KloudFormationTemplate {
+    @KloudFormationDsl
+    class Builder {
+        fun s3Bucket(b: S3Bucket.Builder.() -> Unit): S3Bucket
+        fun snsTopic(): SNSTopic
+    }
+}
+class S3Bucket {
+    @KloudFormationDsl
+    class Builder {
+        bucketName(bucketName: String) = ...
+    }
+}
+```
+
+----
+## Kotlin DSL Examples
+DSLMarkers
+```kotlin
+KloudFormationTemplate.create {
+    s3Bucket{
+        bucketName("bucket-name") // works
+        snsTopic() //doesn't work
+    }
+}
+```
+
 ---
+
 
 # DEMO
 
@@ -202,7 +240,7 @@ Show Builder
 ---
 
 ## DSLs on DSLs
-Module: set of steps to create number of Cloudformation resources
+Module: set of steps to create number of CloudFormation resources
 Parts: Resource builders that expose a subset of properties
         
 Note:  Module System - DSL built from another DSL
@@ -221,6 +259,6 @@ Build Serverless end to end example
 
 ---
 ## Get involved
-- Kotlinlang Slack : Kloudformation
+- Kotlinlang Slack : KloudFormation
 - New modules: ECS, Fargate, Alexa ....... 
 

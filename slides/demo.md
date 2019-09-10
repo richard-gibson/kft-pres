@@ -65,3 +65,29 @@ val env = parameter<String>("env")
                     }
             )))
         }
+
+
+          val dynamoTable = table(keySchema = listOf(KeySchema(+"principalId", +"HASH"))) {
+    tableName("ddb-table")
+    attributeDefinitions(listOf(AttributeDefinition(+"principalId", +"S")))
+  }
+
+  val dynamoAccess: Role.Builder.(Serverless.Parts.RoleProps) -> Unit = {
+    policies(this.policies.orEmpty() + listOf(Policy(policyName = +"table-access",
+      policyDocument = policyDocument(id = "table-access-policy", version = IamPolicyVersion.V2.version) {
+        statement(actions("dynamodb:PutItem", "dynamodb:GetItem", "dynamodb:DeleteItem"), resource = resource(dynamoTable.Arn()))
+      }
+    )))
+  }
+
+  serverless("kt-everywhere-service", "demo", +"hexlabs-deployments") {
+    globalRole(dynamoAccess)
+    serverlessFunction("myFunction", +"js", +"index.handle", +"nodejs8.10") {
+      http {
+        path("ping") {
+          Method.GET()
+        }
+      }
+    }
+
+  }
