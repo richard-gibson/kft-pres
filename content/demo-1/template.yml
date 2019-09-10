@@ -1,0 +1,17 @@
+---
+AWSTemplateFormatVersion: "2010-09-09"
+Resources:
+  SecurityGroup:
+    Type: "AWS::EC2::SecurityGroup"
+    Properties:
+      GroupDescription: "Ebabladkdsaflksdjflk"
+      SecurityGroupIngress:
+      - IpProtocol: "tcp"
+  Instance:
+    Type: "AWS::EC2::Instance"
+    Properties:
+      SecurityGroups:
+      - Fn::Join:
+        - ""
+        - - Ref: "SecurityGroup"
+          - "afds"

@@ -1,0 +1,14 @@
+{
+  "name": "kloudformationtalk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/reveal-md/bin/reveal-md.js slides/index.md -w --scripts scripts/playground.js,scripts/startup.js --css theme/theme.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "reveal-md": "^3.0.4"
+  }
+}

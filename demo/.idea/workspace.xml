@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="204a0ffc-4eca-4e98-ba9d-031923e85250" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="502291897">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="iml" value="1" />
+          <entry key="kt" value="1" />
+          <entry key="xml" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="Kotlin" value="1" />
+          <entry key="XML" value="3" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/demo.iml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1789" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DynamoDb/DynamoDb.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../../../../Java/Arrow-Demo" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../arrow" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../hexlabs/kft" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../hexlabs/kloudformation-s3-module" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../hexlabs/kloudformation-serverless-module" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../hexlabs/ktPres" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../instil/bell/common" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../instil/bell/mobile-tv-widget-server" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../instil/http4kbox" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../instil/kotlin-conf-review/FullStackKotlin/ExtraFeatures/WebSocketsDemo" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../instil/kotlin-conf-review/FullStackKotlin/IncrementalSolutions/IterationThreeFinishServer" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../instil/kotlinconf-workshop-2018/WorkshopProjects/ExtraFeatures/WebSocketsDemo" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../instil/kotlinconf-workshop-2018/WorkshopProjects/IncrementalSolutions/IterationThreeFinishServer" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../kotlin/Arrow-Demo" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../kotlin/ArrowInPractice" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../kotlin/Category-Theory-for-Programmers.kt" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../kotlin/ank" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../kotlin/arrow-concurrency" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../kotlin/fptothemax" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../kotlin/fptothemaxOffline/fptothemax" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../kotlin/kloudformation-specification-generator" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../kotlin/kotlinconf18" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../kotlin/kotlintest" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../kotlin/rec-schemes" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../FPWithArrowTraining" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../arrow-slides" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../nidc-june-2019/effects-console" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../kft-idea" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../kotlin-playground" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../rebelcon-coding-kotlin/WorkshopProjects/iteration-six-client" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../rebelcon-coding-kotlin/WorkshopProjects/iteration-six-server" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="342" />
+    <option name="y" value="23" />
+    <option name="width" value="1338" />
+    <option name="height" value="1027" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>CollectionsScala</id>
+          </State>
+          <State>
+            <id>ComparingCollectionsScala</id>
+          </State>
+          <State>
+            <id>GeneralScala</id>
+          </State>
+          <State>
+            <id>Properties Files</id>
+          </State>
+          <State>
+            <id>Scala</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>KindProjectorUseCorrectLambdaKeyword</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+              <item name="inspectionProfiles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="DynamoDb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$/../../../../scala/Monocle" value="1482059758000" />
+        <entry key="$PROJECT_DIR$/../../../../scala/Monoid-demo" value="1481398276000" />
+        <entry key="$PROJECT_DIR$/../../../../scala/ScalaPB" value="4444212513000" />
+        <entry key="$PROJECT_DIR$/../../../../scala/cats-workshop" value="1487350432000" />
+        <entry key="$PROJECT_DIR$/../../../../scala/circe" value="1482434048000" />
+        <entry key="$PROJECT_DIR$/../../../../scala/circe-derivation" value="1482976317000" />
+        <entry key="$PROJECT_DIR$/../../../../scala/contextual" value="1481754974000" />
+        <entry key="$PROJECT_DIR$/../../../../scala/coursera/spark/wikipedia_wk1" value="1489515822000" />
+        <entry key="$PROJECT_DIR$/../../../../scala/hammersmith" value="1482424597000" />
+        <entry key="$PROJECT_DIR$/../../../../scala/katsconf2017" value="1487351589000" />
+        <entry key="$PROJECT_DIR$/../../../../scala/lyas" value="1481465976000" />
+        <entry key="$PROJECT_DIR$/../../../../scala/scala-meta-tutorial" value="2962833002000" />
+        <entry key="$PROJECT_DIR$/../../../../scala/shapeless-play" value="1482269852000" />
+      </map>
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../../../../scala/CT_from_Programmers.scala" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../scala/FingerTree" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../scala/cats-effect" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../scala/freestyle" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../scala/frestyle-scratch" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../scala/fs/full-stack" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../scala/functional-scala" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../scala/js/apollo-scalajs" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../scala/js/client" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../scala/js/dev-bash" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../scala/js/diode" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../scala/js/hawaii-react-js/danhodges+slinky" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../scala/js/movie-app" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../scala/js/neo4jserver" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../scala/js/scalajs-bootstrap" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../scala/js/scalajs-sandbox" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../scala/js/scalajs-spa-tutorial" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../scala/js/slinky" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../scala/js/slinky-app" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../scala/js/slinky-rn" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../scala/js/todoMVC-slinky" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../scala/recursion-schemes-lc2018" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../scala/scalaz" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../scala/scalaz-zio" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../scala/trip_with_monads" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="204a0ffc-4eca-4e98-ba9d-031923e85250" name="Default Changelist" comment="" />
+      <created>1568060296045</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1568060296045</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="342" y="23" width="1338" height="1027" extended-state="0" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25385803" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="SBT Console" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/DynamoDb/DynamoDb.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/demo.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1789" />
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

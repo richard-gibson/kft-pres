@@ -1,0 +1,26 @@
+.reveal .slides { margin-top: 0; }
+.CodeMirror, .js-code-output-executor {
+    text-align: left;
+}
+.CodeMirror-gutters {
+    left: 0px !important;
+}
+.reveal h2 {
+    text-transform: none;
+}
+pre.CodeMirror-line {
+    box-shadow: none;
+}
+img {
+    background: none !important;
+    border: 0 !important;
+    box-shadow: none !important;
+
+}
+.code-output {
+    max-height: 15em;
+    overflow: scroll;
+}
+* {
+    font-weight: 100 !important;
+}

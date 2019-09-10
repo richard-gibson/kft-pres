@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: io.hexlabs:kloudformation-serverless-module:1.1.1">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/Could not find io.hexlabs:kloudformation-serverless-module:1.1.1." />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.hexlabs/kloudformation-serverless-module/1.1.1/114b6acacf5458363f0735e116b299cbd3e54b/kloudformation-serverless-module-1.1.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.hexlabs/kloudformation-serverless-module/1.1.1/768bfa9f0ee800a3790df4d51f066d6cc017c13e/kloudformation-serverless-module-1.1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
